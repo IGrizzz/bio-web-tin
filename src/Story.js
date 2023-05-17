@@ -22,6 +22,20 @@ import c13 from "./assets/images/c13.png"
 import c14 from "./assets/images/c14.png"
 import c15 from "./assets/images/c15.png"
 import c16 from "./assets/images/c16.png"
+import d1 from "./assets/images/d1.png"
+import d2 from "./assets/images/d2.png"
+import d3 from "./assets/images/d3.png"
+import d4 from "./assets/images/d4.png"
+import d5 from "./assets/images/d5.png"
+import d6 from "./assets/images/d6.png"
+import d7 from "./assets/images/d7.png"
+import d8 from "./assets/images/d8.png"
+import d9 from "./assets/images/d9.png"
+import d10 from "./assets/images/d10.png"
+import d11 from "./assets/images/d11.png"
+import d12 from "./assets/images/d12.png"
+import d13 from "./assets/images/d13.png"
+import d14 from "./assets/images/d14.png"
 // import v1 from "https://ik.imagekit.io/9kbvtqrtus/Media1.mp4?updatedAt=1684267172203"
 
 // import line from "./assets/images/line.png"
@@ -36,7 +50,7 @@ function Story(){
                 <img src={map} className=" col-12 rounded my-3" alt="map"/>
                 
                 <div>
-                    <p className="justifytext col-12"><strong>Sayur Matua  </strong> merupakan salah satu desa yang ada di kec. Aek Nabara Barumun, kab. Padang Lawas, prov. Sumatra Utara dengan luas wilayah sekitar 2.819 Ha dan jumlah penduduk sebanyak 229 KK (936 jiwa). 
+                    <p className="text-content justifytext col-12"><strong>Sayur Matua  </strong> merupakan salah satu desa yang ada di kec. Aek Nabara Barumun, kab. Padang Lawas, prov. Sumatra Utara dengan luas wilayah sekitar 2.819 Ha dan jumlah penduduk sebanyak 229 KK (936 jiwa). 
                     Sebagian Besar Masyarakat Sayur Matua memiliki Profesi sebagai Petani dan Peternak, Hanya Sebagian Kecil yang berprofesi di bidang lain.</p>
                 </div>
                 {/* Eksplorasi Potensi desa */}
@@ -87,7 +101,7 @@ function Story(){
                     </div>
 
                     {/* Pengadaan Alat alat TTG Tahap 1 */}
-                    <h2 className="mb-md-5 mt-4">Pengadaan Alat-alar Teknologi Tepat Guna Tahap 1</h2>
+                    <h2 className="mb-md-2 mt-5">Pengadaan Alat-alar Teknologi Tepat Guna Tahap 1</h2>
                     <h2 className="d-md-none">2020</h2>
                     {/* no 1 */}
                     <div className="d-flex align-items-center my-5">
@@ -231,8 +245,148 @@ function Story(){
                     <div className="row justify-content-center pt-5">
                         {/* <iframe id="demo-player" className="col-12 embed-responsive-item cld-video-player" src="https://ik.imagekit.io/9kbvtqrtus/Media1.mp4?updatedAt=1684267172203" allow="autoplay" width="100%" height="300px" title="sprinkler" autoplay></iframe> */}
                         <video className="video-round col-11" src="https://ik.imagekit.io/9kbvtqrtus/Media1.mp4?updatedAt=1684267172203" autoplay="autoplay" muted loop></video>
-                        <h4 className="col-8 pt-4">Ujicoba Sistem Penyiraman Otomatis Tenaga Surya</h4>
-                        <p className="col-11 text-justify">Setelah Proses Instalasi selesai, Ujicoba dilakukan. Sistem terintegrasi dengan Panel Surya yang mampu mengubah Panas Matahari menjadi energi listrik. Sistem juga Terintegrasi dengan Listrik PLN sebagai tenaga Cadangan jika Energi Listrik di dalam baterai tidak memenuhi. Sistem Penyiraman ini juga dilengkapi dengan sensor Cuaca</p>
+                        <h4 className="md-title col-8 pt-4 text-center">Ujicoba Sistem Penyiraman Otomatis Tenaga Surya</h4>
+                        <p className="text-content col-11 text-justify">Setelah Proses Instalasi selesai, Ujicoba dilakukan. Sistem terintegrasi dengan Panel Surya yang mampu mengubah Panas Matahari menjadi energi listrik. Sistem juga Terintegrasi dengan Listrik PLN sebagai tenaga Cadangan jika Energi Listrik di dalam baterai tidak memenuhi. Sistem Penyiraman ini juga dilengkapi dengan sensor Cuaca</p>
+                    </div>
+
+                    {/* Kegiatan Tahun 2021 */}
+                    <h2 className=" mt-4">Kegiatan di Tahun 2021</h2>
+                    {/* no 1 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d1} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Perancangan Multi Fungsi lahan dengan Pembuatan Kolam Zig-zag</h4>
+                            <p className="text-justify md-text d-none d-md-block">Untuk Kegiatan awal di tahun 2021, Lahan atau Lokasi pengembangan akan di multi fungsi-kan dengan membangun kolam zig-zag untuk budidaya ikan. dimulai dari proses perancangan dan persiapan</p>
+                        </div>
+                    </div>
+                     {/* no 2 */}
+                     <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d2} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Proses Pembuatan Kolam Zig - zag</h4>
+                            <p className="text-justify md-text d-none d-md-block">Setelah Persiapan dan perancangan telah selesai dilaksanakan selanjutnya adalah proses pembuatan yang dibantu oleh beberapa warga dan Kepala desa Sayur Matua</p>
+                        </div>
+                    </div>
+                    {/* no 3 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d3} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Pembenihan dan Penanaman Tanaman Indigofera di Kolam Zig - zag</h4>
+                            <p className="text-justify md-text d-none d-md-block">Tanaman yang akan ditanam disekitar kolam adalah tanaman indigofera, Maka dari itu perlu dilakukan pembibitan dan pembenihan tanaman indigofera sebelum ditanam di sekitar kolam Zig - zag</p>
+                        </div>
+                    </div>
+                    {/* no 4 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d2} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Proses Pembuatan Kolam Zig - zag</h4>
+                            <p className="text-justify md-text d-none d-md-block">Setelah Persiapan dan perancangan telah selesai dilaksanakan selanjutnya adalah proses pembuatan yang dibantu oleh beberapa warga dan Kepala desa Sayur Matua</p>
+                        </div>
+                    </div>
+                    {/* kebun indigofera */}
+                    <div className="row justify-content-center">
+                        <img src={d4} className="col-12 img-round" alt="indigofera" />
+                        <h4 className="md-title-reverse text-center mt-2 mb-4">Kebun Indigofera di Kolam Zig-zag</h4>
+                    </div>
+                    {/* no 5 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d5} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Panen Bijih tanaman Indigofera yang bernilai Ekonomis</h4>
+                            <p className="text-justify md-text d-none d-md-block">Setelah jeda waktu tertentu setelah penanaman Indigofera, Akhirnya tanaman tersebut menghasilkan biji yang dapat dipanen kemudian dapat diolah ataupun dijual dengan harga yang lumayan tinggi</p>
+                        </div>
+                    </div>
+                    {/* no 6 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d6} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Perakitan Alat pembuatan Pelet dan pencacah mesin Robin</h4>
+                            <p className="text-justify md-text d-none d-md-block">Untuk mempermudah proses pembuatan Pakan Ternak secara mandiri diperlukan beberapa mesin, seperti mesin pencacah dan mesin pembuat pelet. perakitan mesin ini dilakukan dilokasi dan dibantu oleh beberaoa masyarakat desa</p>
+                        </div>
+                    </div>
+                    {/* no 7 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d7} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Pelatihan Pembuatan Pakan menggunakan alat pencacah dan mesin pembuat pelet</h4>
+                            <p className="text-justify md-text d-none d-md-block">Setelah proses perakitan selesai, selanjutnya masyarakat desa dilatih untuk menggunakan mesin - mesin tersebut untuk mencapai hasil yang optimal dan bagaimana merawat mesin tersebut</p>
+                        </div>
+                    </div>
+                    {/* no 8 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d8} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Proses Pengeringan Pelet secara Alami</h4>
+                            <p className="text-justify md-text d-none d-md-block">Setelah dicetak, Pelet perlu dikeringkan sebelum diberikan ke Hewan Ternak, untuk pengeringan akan dilakukan secara alami menggunakan Sinar matahari</p>
+                        </div>
+                    </div>
+                    {/* no 9 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d9} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Pembuatan Kerangka Penyangga Panel Surya Tambahan</h4>
+                            <p className="text-justify md-text d-none d-md-block">Untuk Cadangan energi listrik yang lebih optimal diperlukan panel surya tambahan di lokasi, maka dari itu tim bersama - sama merakit kerangka Panel Surya tambahan di Lokasi</p>
+                        </div>
+                    </div>
+                    {/* no 10 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d10} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Instalasi panel Surya Tambahan</h4>
+                            <p className="text-justify md-text d-none d-md-block">Kerangka yang telah dibuat selanjutnya disatukan dengan panel surya di lokasi kegiatan, Pemasangan dilakukan bersama-sama dengan Tim dan Kepala Desa</p>
+                        </div>
+                    </div>
+                    {/* no 11 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d11} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Instalasi Sprinkle Otomatis Tenaga Surya di Perkebunan Organik</h4>
+                            <p className="text-justify md-text d-none d-md-block">Untuk mendukung Perkebunan yang lebih modern dan efisien, kami melakukan instalasi Sprinkler otomatis yang ditenagai energi listrik dari tenaga surya</p>
+                        </div>
+                    </div>
+                    {/* no 12 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d12} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Instalasi Alat pendeteksi Kesuburan Tanah dan Pelatihan penggunaannya</h4>
+                            <p className="text-justify md-text d-none d-md-block">Sprinkler Otomatis yang di pasang sebelumnya telah dilengkapi oleh Alat Pendeteksi Kesuburan tanah, dan Masyarakat desa dilatih untuk pengawasan dan pemeliharaan alat tersebut</p>
+                        </div>
+                    </div>
+                    {/* no 13 */}
+                    <div className="d-flex align-items-center my-5">
+                        <img src={d13} className="col-5 rounded me-md-5 me-3" alt="thumb" />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title">Penanaman Sayur Kangkung di perkebunan Organik</h4>
+                            <p className="text-justify md-text d-none d-md-block">Warga mulai menanam Sayuran Organik di Lahan yang telah terpasang dengan Sprinkler otomatis dan menunjukkan hasil yang Baik</p>
+                        </div>
+                    </div>
+                    {/* no 14 */}
+                    <div className="d-flex flex-row-reverse align-items-center my-5">
+                        <img src={d14} className="col-5 rounded ms-md-5 ms-3" alt='thumb' />
+                        <div>
+                            <h5 className="d-none d-md-block">2021</h5>
+                            <h4 className="md-title-reverse">Instalasi Sistem Kontrol Kualitas Air Kolam Ikan Otomatis dan Pelatihan penggunaannya</h4>
+                            <p className="text-justify md-text d-none d-md-block">Pada kolam Zig - zag, Dipasang sebuah sistem konrol Kualitas air kolam untuk menjaga kualitas air kolam yang sesuai untuk Ikan Nila</p>
+                        </div>
+                    </div>
+                    {/* Video Ikan Nila */}
+                    <div className="row justify-content-center pt-5">
+                        <video className="video-round col-11" src="https://res.cloudinary.com/udinary/video/upload/v1684321226/Media1_online-video-cutter.com_lbmrhs.mp4" autoplay="autoplay" muted loop></video>
+                        <h4 className="md-title col-8 pt-4 text-center">Ternak Ikan Nila di Kolam Zig-zag dengan sistem Kontrol Kualitas Air Otomatis</h4>
+                        <p className="text-content col-11 text-justify">Kualitas Air di kolam terbukti Stabil dan Cocok untuk perkembangan ikan nila, ditunjukkan di dalam video populasi ikan nila terus meningkat dan tingkat kematian ikan yang sangat kecil</p>
                     </div>
                 </div>
             </div>

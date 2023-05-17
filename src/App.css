@@ -91,12 +91,24 @@
 
 
 @media only screen and (max-width: 567px){
+  .text-content {
+    font-size: 12px !important;
+  }
+
   .title {
     font-size: 24px;
+  }
+
+  .img-round {
+    border-radius: 40% !important;
   }
 }
 
 @media only screen and (max-width: 768px){
+  .text-content {
+    font-size: 16px !important;
+  }
+
   .md-title {
     font-size: 16px;
     text-align: start !important;
@@ -111,6 +123,13 @@
     font-size: 14px;
   }
 
+  .video-round {
+    border-radius: 5%;
+  }
+
+  .img-round {
+    border-radius: 10% !important;
+  }
 }
 
 .text-justify {
@@ -119,4 +138,8 @@
 
 .video-round {
   border-radius: 3%;
+}
+
+.img-round {
+  border-radius: 3% !important;
 }
