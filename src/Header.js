@@ -1,7 +1,5 @@
 import './App.css'
-import profileFoto from './assets/images/Rectangle 10.png';
 import pubLogo from './assets/images/publikasi.svg';
-import patLogo from './assets/images/paten.png';
 import usu from './assets/images/usu.png';
 import uom from './assets/images/uom.png';
 import arrow from './assets/images/arrow.png';
@@ -25,7 +23,7 @@ function Header() {
         <div className='pub-pat row justify-content-center'>
           <a className='col-5' href='https://www.scopus.com/authid/detail.uri?authorId=55542500300' target="_blank" rel='noopener noreferrer'>
             <div className='pub-pat-btn btn btn-primary col-12 px-3 py-3 mx-2'>
-                  <img className='my-1' src={pubLogo}/>
+                  <img className='my-1' src={pubLogo} alt="logo-publikasi"/>
                   <h1 className='mb-0 text-white fs-3 text-center'>
                       Publikasi
                   </h1>
@@ -61,7 +59,7 @@ function Header() {
                     </a> 
                     <a className="col-3" href="https://www.ukm.my/" target="_blank" rel="noopener noreferrer" >
                       <div className='pend-btn rounded-4 btn btn-secondary mx-4  py-1 col-8'>
-                            <img className='' src={uom} alt='s2-logo'/>
+                            <img className='' src={uom} alt='s2-logo' />
                             <h1 className='btn-bot-text text-primary'>S2</h1>
                       </div>
                     </a>   
@@ -80,7 +78,7 @@ function Header() {
                   <a className='row col-4 justify-content-center text-decoration-none' href='/prestasi'>
                     <div className='btn btn-secondary d-inline-flex align-items-center rounded-4 col-12 justify-content-center'>
                         <p className='fw-bold text-primary fs-4 pt-2 me-3'>Klik Saya</p>
-                        <img className='' src={arrow} alt=''/>
+                        <img className='' src={arrow} alt='arrow'/>
                       </div>
                   </a>
                   

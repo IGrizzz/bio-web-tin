@@ -17,7 +17,7 @@ function Prestasi(){
                     </div>
                     {/* list 1 */}
                     <div className='list d-inline-flex border rounded py-2 px-2 col-8 my-2'>
-                        <img className="rounded mx-2" src={p1} width="270px" height="174px" />
+                        <img className="rounded mx-2" src={p1} width="270px" height="174px" alt='1' />
                         <div className='content-box mx-2 px-3 py-3 container text-white' >
                             <p className="Header">Peraih Penghargaan SINTA Awards</p>
                             <p className='Content'>Meraih Penghargaan Sebagai Inventor Paling produktif di tingkat Nasional pada ajang Penghargaan SINTA Awards di tahun 2019</p>
@@ -26,7 +26,7 @@ function Prestasi(){
 
                     {/* list 2*/}
                     <div className='list d-inline-flex border rounded py-2 px-2 col-8 my-2'>
-                        <img className="rounded mx-2" src={p2} width="270px" height="174px" />
+                        <img className="rounded mx-2" src={p2} width="270px" height="174px" alt='2'/>
                         <div className='content-box mx-2 px-3 py-3 container text-white' >
                             <p className="Header">Peraih Tanda Kehormatan Satyalancana 2022</p>
                             <p className='Content'>Menerima Piagam Penghargaan Tanda Kehormatan Satyalancana Karya Satya Tahun 2022 dari presiden Republik Indonesia</p>
@@ -35,7 +35,7 @@ function Prestasi(){
 
                     {/* list 3*/}
                     <div className='list d-inline-flex border rounded py-2 px-2 col-8 my-2'>
-                        <img className="rounded mx-2" src={p3} width="270px" height="174px" />
+                        <img className="rounded mx-2" src={p3} width="270px" height="174px" alt='3'/>
                         <div className='content-box mx-2 px-3 py-3 container text-white' >
                             <p className="Header">Peraih Penghargaan Pertama dalam Pelaksanaan ABDIMAS USU 2022</p>
                             <p className='Content'>Menerima Penghargaan Pertama dalam Pengabdian Kepada Masyarakat Universitas Sumatera Utara Tahun 2022</p>
@@ -44,7 +44,7 @@ function Prestasi(){
 
                     {/* list 4*/}
                     <div className='list d-inline-flex border rounded py-2 px-2 col-8 my-2'>
-                        <img className="rounded mx-2" src={p4} width="270px" height="174px" />
+                        <img className="rounded mx-2" src={p4} width="270px" height="174px" alt='4'/>
                         <div className='content-box mx-2 px-3 py-3 container text-white' >
                             <p className="Header">Berhasil Membawa Mahasiswa Fisika Memperoleh Medali Perak di PIMNAS 2017</p>
                             <p className='Content'>Membimbing Mahasiswa Fisika memperoleh medali perak dalam ajang Pekan Ilmiah Nasional di Makassar pada Tahun 2017</p>
@@ -52,7 +52,7 @@ function Prestasi(){
                     </div>
 
                     <div className='list d-inline-flex border rounded py-2 px-2 col-8 my-2'>
-                        <img className="rounded mx-2" src={p5} width="270px" height="174px" />
+                        <img className="rounded mx-2" src={p5} width="270px" height="174px" alt='5'/>
                         <div className='content-box mx-2 px-3 py-3 container text-white' >
                             <p className="Header">Berhasil Membawa Mahasiswa Fisika Memperoleh Medali Perunggu di PIMNAS 2019</p>
                             <p className='Content'>Membimbing Mahasiswa Fisika memperoleh medali perunggu dalam ajang Pekan Ilmiah Nasional di Bali pada Tahun 2019</p>
