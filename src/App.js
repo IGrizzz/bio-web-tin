@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom/client";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Prestasi from "./Prestasi";
@@ -10,7 +10,7 @@ export default function App () {
         <Routes>
             <Route path="/" element={<Header/>} />
             <Route path="/prestasi" element={<Prestasi/>} />
-            <Route path="/story" element={<Success/>} />
+            <Route path="/success-story" element={<Success/>} />
         </Routes>
     </BrowserRouter>
  )

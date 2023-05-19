@@ -2,6 +2,8 @@
   --primary-color: red;
 }
 
+
+
 .jab-head {
   font-size: 36;
   font-weight: bold;
@@ -102,6 +104,11 @@
   .img-round {
     border-radius: 40% !important;
   }
+
+  .headline {
+    font-size: 28px;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 768px){
@@ -130,6 +137,19 @@
   .img-round {
     border-radius: 10% !important;
   }
+
+  .headline {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .headline {
+    font-size: 28px;
+    text-align: center;
+  }
+
 }
 
 .text-justify {
